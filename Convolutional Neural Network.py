@@ -9,7 +9,7 @@ TEST_DIR = 'C:/Users/mfrangos2016/Desktop/pdf-to-jpeg/pdf2jpg-master/Saved'
 IMG_SIZE = 600
 LR = 1e-4
 
-MODEL_NAME = 'dogsvscats-{}-{}.model'.format(LR, '2conv-basic') # just so we remember which saved model is which, sizes must match
+MODEL_NAME = 'Classification-{}-{}.model'.format(LR, '2conv-basic') # just so we remember which saved model is which, sizes must match
 
 
 
