@@ -40,11 +40,7 @@ def create_train_data():
         index = index + 1
         training_data.append([np.array(cropedImage),np.array(label)])
     shuffle(training_data)
-    shuffle(training_data)
-    shuffle(training_data)
-    shuffle(training_data)
-    shuffle(training_data)
-    shuffle(training_data)
+
     np.save('train_data.npy', training_data)
     cv2.imshow("Image",cropedImage)
     cv2.waitKey(0) 
